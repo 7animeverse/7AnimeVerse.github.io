@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anime of the Year 2025 – Jujutsu Kaisen | 7AnimeVerse</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #1b1b1d;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+      line-height: 1.8;
+    }
+    nav {
+      background-color: #2a2a2c;
+      padding: 15px 20px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+      font-size: 1rem;
+      padding: 8px 16px;
+      background-color: #ff5f5f;
+      border-radius: 8px;
+    }
+    nav a:hover {
+      background-color: #e04848;
+    }
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: #29292c;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    img {
+      max-width: 100%;
+      border-radius: 12px;
+      margin: 20px 0;
+    }
+    h1, h2 {
+      color: #ffd700;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .buttons {
+      margin-top: 40px;
+      text-align: center;
+    }
+    .buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      background-color: #5f9eff;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    .buttons a:first-child {
+      background-color: #ff5f5f;
+    }
+    .buttons a:hover {
+      opacity: 0.85;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">🏠 Home</a>
+    <a href="post.html">📝 Post</a>
+  </nav>
+
+  <div class="container">
+    <h1>🏆 Anime of the Year 2025: Jujutsu Kaisen – The Final War</h1>
+
+    <img src="/images/jujutsu_kaisen_final.jpg" alt="Jujutsu Kaisen Final War">
+
+    <p>
+      The anime world in 2025 was filled with high-quality releases, but one show stood above the rest — <strong>Jujutsu Kaisen: The Final War</strong>. Studio MAPPA delivered a mind-blowing finale that wrapped up years of storytelling, fan emotions, and battles we’ll never forget. From animation quality to emotional depth, this season was a masterpiece.
+    </p>
+
+    <h2>🔥 Legendary Showdowns</h2>
+    <p>
+      The final arc brought everything fans had hoped for and more:
+      <ul>
+        <li><strong>Gojo vs Sukuna:</strong> An epic clash of two titans that left the anime community breathless.</li>
+        <li><strong>Yuji’s Awakening:</strong> His hidden potential finally unlocked in a stunning sequence.</li>
+        <li><strong>Maki’s Final Stand:</strong> A fan-favorite moment that proved she’s one of the strongest.</li>
+      </ul>
+      Every fight was not just about power — it carried deep emotion and meaning. The stakes were higher than ever, and losses were heartbreaking.
+    </p>
+
+    <h2>🎭 Emotional Impact</h2>
+    <p>
+      This wasn’t just a story about cursed spirits. It was about sacrifice, loyalty, and the pain of war. We lost characters we loved. Tears flowed as old bonds were broken and new legacies were formed. The dialogue hit hard, especially when Gojo said:
+      <blockquote>"Even in death, I’ll protect this generation’s light."</blockquote>
+      Fans are still talking about it.
+    </p>
+
+    <h2>🎨 Unmatched Animation</h2>
+    <p>
+      MAPPA went all out — blending traditional hand-drawn scenes with 3D effects flawlessly. Every frame was polished, every hit felt heavy. The fluid movement and camera angles were on par with theatrical releases. Many episodes trended worldwide within minutes of airing.
+    </p>
+
+    <h2>🌍 Global Recognition</h2>
+    <p>
+      Jujutsu Kaisen wasn’t just big in Japan — it dominated international charts. With dubbed versions available within 24 hours, fans across India, the U.S., and Europe experienced the hype together. The finale even crashed Crunchyroll servers for a brief time due to traffic overload!
+    </p>
+
+    <h2>⭐ Final Verdict</h2>
+    <p>
+      For its breathtaking animation, heart-wrenching story, and unforgettable characters, <strong>Jujutsu Kaisen: The Final War</strong> is the deserving winner of **Anime of the Year 2025**. A perfect send-off to a modern classic that will be remembered for decades.
+    </p>
+
+    <div class="buttons">
+      <a href="index.html">🏠 Home</a>
+      <a href="post.html">📝 Post</a>
+    </div>
+  </div>
+
+</body>
+</html>
