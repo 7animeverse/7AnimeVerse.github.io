@@ -1,152 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="google-site-verification" content="bcH19FcPq5CWbfzO8ZOEhikbcD9zdQ5DtQFupmSxLrU" />
   <title>7AnimeVerse</title>
-  <!-- your other styles -->
-  </head>
-  <link rel="icon" href="logo.png" />
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto&display=swap" rel="stylesheet" />
   <style>
     body {
       margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background-color: #0d0d0d;
-      color: #f0f0f0;
-      .contact-btn {
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #00ffff;
-  color: #000;
-  padding: 15px 30px;
-  font-size: 18px;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 40px;
-  box-shadow: 0 0 12px #00ffff;
-  transition: 0.3s ease;
-  z-index: 999
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.contact-btn:hover {
-  background-color: #fff;
-  color: #000;
-}
-        
-}
-.contact-btn:hover {
-  background-color: #fff;
-  color: #000;
-}
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
     }
-
     header {
-      text-align: center;
-      padding: 20px;
       background-color: #111;
-      border-bottom: 2px solid #ff4757;
+      padding: 20px;
+      text-align: center;
     }
-
-    header img {
-      height: 80px;
+    header h1 {
+      color: #e50914;
+      margin: 0;
     }
-
-    h1 {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 32px;
-      color: #ff4757;
-      margin: 10px 0 0;
-    }
-
     nav {
-      background-color: #1a1a1a;
+      background-color: #222;
       display: flex;
       justify-content: center;
-      gap: 20px;
-      padding: 12px 0;
+      padding: 10px 0;
     }
-
     nav a {
-      color: #f0f0f0;
+      color: #fff;
       text-decoration: none;
+      margin: 0 15px;
       font-weight: bold;
-      font-size: 16px;
-      transition: color 0.3s;
     }
-
     nav a:hover {
-      color: #ff4757;
+      color: #e50914;
     }
-
     main {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-
-    section {
-      margin-bottom: 40px;
-    }
-
-    h2 {
-      color: #ff4757;
-      border-bottom: 2px solid #444;
-      padding-bottom: 5px;
-      font-family: 'Orbitron', sans-serif;
-    }
-
-    footer {
-      text-align: center;
       padding: 20px;
+    }
+    footer {
       background-color: #111;
-      color: #999;
-      border-top: 1px solid #333;
+      color: #777;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+    }
+    .contact-button {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #e50914;
+      color: #fff;
+      padding: 12px 24px;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      text-decoration: none;
+      z-index: 1000;
+    }
+    .contact-button:hover {
+      background-color: #ff1a2c;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <img src="logo.png" alt="7AnimeVerse Logo" style="height: 100px;" />
     <h1>7AnimeVerse</h1>
   </header>
 
   <nav>
     <a href="index.html">Home</a>
     <a href="post.html">Post</a>
-    <a href="terms.html">Terms</a>
+    <a href="team.html">Team</a>
+    <a href="review.html">Review</a>
     <a href="privacy.html">Privacy</a>
     <a href="disclaimer.html">Disclaimer</a>
   </nav>
 
   <main>
-    <section>
-      <h2>Welcome to 7AnimeVerse</h2>
-      <p>Explore anime reviews, team picks, and top-rated series from all genres. This is your portal into the ultimate anime universe — 7AnimeVerse!</p>
-    </section>
-
-    <section>
-      <h2>Latest Post</h2>
-      <p><strong><a href="post1.html" style="color: #1e90ff;">Best Anime</a></strong> — a curated list of timeless anime every fan must watch!</p>
-    </section>
-
-    <section>
-      <h2>Why 7AnimeVerse?</h2>
-      <p>Whether you're a seasoned otaku or new to the world of anime, we bring you handpicked lists, honest reviews, and community-backed rankings with passion and style.</p>
-    </section>
-    
+    <h2>Welcome to 7AnimeVerse</h2>
+    <p>All about anime: top reviews, latest news, and trending series in 2025! Dive into the world of anime with us 🚀</p>
   </main>
+
+  <a class="contact-button" href="mailto:7AnimeVerse7@gmail.com">📧 Contact</a>
+
   <footer>
     &copy; 2025 7AnimeVerse. All rights reserved.
   </footer>
-  
-<a href="contact.html" class="contact-btn">📧 Contact Us</a>
 
 </body>
 </html>
