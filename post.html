@@ -3,117 +3,90 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Posts - 7AnimeVerse</title>
-  <link rel="icon" href="logo.png" />
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto&display=swap" rel="stylesheet" />
+  <title>Posts – 7AnimeVerse</title>
+  <link rel="stylesheet" href="style.css" />
   <style>
     body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff;
+      color: #333;
       margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background-color: #0d0d0d;
-      color: #f0f0f0;
-    }
-
-    header {
-      text-align: center;
-      padding: 20px;
-    }
-
-    header img {
-      height: 80px;
-      margin-bottom: 10px;
-    }
-
-    h1 {
-      h1 {
-        font-family: 'Orbitron', sans-serif;
-      font-size: 32px;
-      margin: 0;
-      color: #ff4757;
-        
+      padding: 0;
     }
 
     nav {
-      background-color: #1a1a1a;
-      display: flex;
-      justify-content: center;
-      padding: 12px 0;
+      background-color: #ff4d4d;
+      padding: 12px 20px;
+      text-align: center;
     }
 
     nav a {
-      color: #f0f0f0;
+      color: white;
       text-decoration: none;
-      margin: 0 15px;
+      font-size: 1.2rem;
+      margin: 0 10px;
       font-weight: bold;
-      transition: color 0.3s;
     }
 
-    nav a:hover {
-      color: #ff4757;
+    h1 {
+      text-align: center;
+      color: #ff4d4d;
+      margin-top: 30px;
+      font-size: 2.5rem;
     }
 
-    main {
-      max-width: 800px;
-      margin: auto;
-      padding: 40px 20px;
+    .post-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 30px;
+      max-width: 1000px;
+      margin: 0 auto;
     }
 
-    h2 {
-      color: #ff6b81;
-      margin-bottom: 20px;
+    .post-card {
+      border: 2px solid #ff4d4d;
+      padding: 20px;
+      border-radius: 12px;
+      background-color: #fff8f8;
+      transition: 0.3s;
     }
 
-    ul {
-      list-style: none;
-      padding-left: 0;
+    .post-card:hover {
+      background-color: #ffecec;
     }
 
-    li {
-      margin: 15px 0;
-    }
-
-    a.post-link {
-      color: #ff4757;
+    .post-card a {
       text-decoration: none;
-      font-size: 18px;
-    }
-
-    a.post-link:hover {
-      text-decoration: underline;
+      color: #333;
+      font-size: 1.1rem;
+      font-weight: bold;
+      display: block;
     }
 
     footer {
       text-align: center;
       padding: 20px;
-      background-color: #1a1a1a;
-      color: #aaa;
+      font-size: 0.9rem;
+      color: #777;
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <img src="logo.png" alt="7AnimeVerse Logo" />
-    <h1>7AnimeVerse</h1>
-  </header>
-
   <nav>
-    <a href="index.html">Home</a>
+    <a href="index.html">🏠 Home</a>
   </nav>
 
-  <main>
-    <h2>All Posts</h2>
-    <ul>
-      <div class="post-list">
-  <a href="post1.html">Post 1: Best Anime in 2025 🌟</a>
-<li/>
-  <a href="post2.html">Post 2: Demon Slayer: Infinity 🔥</a>
-<li/>
-  <a href="post.html3">Post 3: Anime of the Year 2025 🏆</a>
+  <h1>📝 All Anime Posts</h1>
 
-</div>
-
-  </main>
+  <div class="post-list">
+    <div class="post-card"><a href="post1.html">🌟 Best Anime in 2025</a></div>
+    <div class="post-card"><a href="post2.html">🛡️ Solo Leveling Season 2</a></div>
+    <div class="post-card"><a href="post3.html">🔥 Demon Slayer: Infinity</a></div>
+    <div class="post-card"><a href="post4.html">🏆 Anime of the Year 2025</a></div>
+    <!-- Add more post links below as you create them -->
+  </div>
 
   <footer>
     &copy; 2025 7AnimeVerse. All rights reserved.
