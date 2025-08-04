@@ -2,113 +2,111 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Posts – 7AnimeVerse</title>
-  <link rel="stylesheet" href="style.css" />
   <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #000;
-      color: #fff;
+    /* Reset & Body Theme */
+    * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
     }
 
+    body {
+      background-color: #000;
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* Navigation Bar */
     nav {
-      background-color: #ff4d4d;
-      padding: 12px 20px;
-      text-align: center;
+      background-color: #111;
+      border-bottom: 2px solid red;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
     }
 
     nav a {
       color: white;
       text-decoration: none;
-      font-size: 1.2rem;
-      margin: 0 10px;
-      font-weight: bold;
+      font-size: 18px;
+      padding: 6px 12px;
+      border: 1px solid red;
+      border-radius: 8px;
+      transition: background 0.3s, color 0.3s;
     }
 
+    nav a:hover {
+      background-color: red;
+      color: black;
+    }
+
+    /* Heading */
     h1 {
       text-align: center;
-      color: #ff4d4d;
-      margin-top: 30px;
-      font-size: 2.5rem;
+      padding: 30px 10px 10px;
+      font-size: 28px;
+      color: red;
     }
 
-    .post-list {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* Post Container & Cards */
+    .post-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       gap: 20px;
-      padding: 30px;
-      max-width: 1000px;
-      margin: 0 auto;
+      padding: 30px 15px;
     }
 
-    .post-card {
-      border: 2px solid #ff4d4d;
+    .post-box {
+      border: 2px solid red;
+      background-color: #111;
+      color: white;
       padding: 20px;
       border-radius: 12px;
-      background-color: #1a1a1a;
-      transition: 0.3s;
-    }
-
-    .post-card:hover {
-      background-color: #2a2a2a;
-    }
-
-    .post-card a {
+      font-size: 18px;
+      min-width: 220px;
+      max-width: 260px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
       text-decoration: none;
-      color: #ffdddd;
-      font-size: 1.1rem;
-      font-weight: bold;
       display: block;
     }
 
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9rem;
-      color: #777;
+    .post-box:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
     }
   </style>
 </head>
 <body>
 
+  <!-- Navigation Bar -->
   <nav>
-    <a href="index.html">🏠 Home</a>
+    <a href="index.html">Home</a>
   </nav>
 
-  <h1>📝 All Anime Posts</h1>
+  <!-- Page Heading -->
+  <h1>📰 Latest Posts</h1>
 
-  <div class="post-list">
-    <div class="post-card"><a href="post1.html">🌟 Best Anime in 2025</a></div>
-
-    <div class="post-card"><a href="post2.html">🛡️ Solo Leveling Season 2</a></div>
-
-    <div class="post-card"><a href="post3.html">🔥 Demon Slayer: Infinity</a></div>
-
-    <div class="post-card"><a href="post4.html">🏆 Anime of the Year 2025</a></div>
-
-    <div class="post-card"><a href="post5.html">⚔️ Attack on Titan: A Timeless Legacy</a></div>
-
-    <div class="post-card"><a href="post6.html">Top 5 Underated Anime 
-
-    <div class="post-card"><a href="post7.html">Anime Vs Manga
-
-    <div class="post-card"><a href="post8.html">Relatable Villains 
-
-    <div class="post-card"><a href="post9.html">Rise Of Fantasy Anime 2025
-
-    <div class="post-card"><a href="post10.html">Top Phycological Anime 2025
-
-    <div class="post-card"><a href="post11.html">One Piece Review 
-
-    <!-- Add more posts below -->
+  <!-- Post Boxes -->
+  <div class="post-container">
+    <a href="post1.html" class="post-box">🌟 Best Anime in 2025</a>
+    <a href="post2.html" class="post-box">🛡️ Solo Leveling Season 2</a>
+    <a href="post3.html" class="post-box">🔥 Demon Slayer: Infinity</a>
+    <a href="post4.html" class="post-box">🏆 Anime of the Year 2025</a>
+    <a href="post5.html" class="post-box">🗡️ Attack on Titan: A Timeless Legacy</a>
+    <a href="post6.html" class="post-box">Top 5 Underrated Anime</a>
+    <a href="post7.html" class="post-box">Anime Vs Manga</a>
+    <a href="post8.html" class="post-box">Relatable Villains</a>
+    <a href="post9.html" class="post-box">Rise Of Fantasy Anime 2025</a>
+    <a href="post10.html" class="post-box">Top Psychological Anime 2025</a>
+    <a href="post11.html" class="post-box">One Piece Review</a>
   </div>
-
-  <footer>
-    &copy; 2025 7AnimeVerse. All rights reserved.
-  </footer>
 
 </body>
 </html>
